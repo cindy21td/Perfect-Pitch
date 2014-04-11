@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/practiceOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Practice"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/practiceOption"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp" />
+
+    <Button
+        android:id="@+id/optionOne"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/optionThree"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="23dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/optionThree"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/optionTwo"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/optionOne"
+        android:layout_below="@+id/optionOne"
+        android:layout_marginTop="18dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/practiceOption"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

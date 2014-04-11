@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleLearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/learning"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/c3Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLearn"
+        android:layout_marginTop="53dp"
+        android:layout_toLeftOf="@+id/titleLearn"
+        android:text="C3"
+        android:onClick="playSound" />
+
+    <Button
+        android:id="@+id/d3Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c3Learn"
+        android:layout_marginTop="26dp"
+        android:layout_toLeftOf="@+id/titleLearn"
+        android:text="D3"
+        android:onClick="playSound" />
+
+    <Button
+        android:id="@+id/e3Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d3Learn"
+        android:layout_marginTop="43dp"
+        android:layout_toLeftOf="@+id/titleLearn"
+        android:text="E3"
+        android:onClick="playSound" />
+
+    <Button
+        android:id="@+id/b3Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/e3Learn"
+        android:layout_alignBottom="@+id/e3Learn"
+        android:layout_toRightOf="@+id/titleLearn"
+        android:text="B3"
+        android:onClick="playSound" />
+
+    <Button
+        android:id="@+id/c4Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b3Learn"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/titleLearn"
+        android:text="C4"
+        android:onClick="playSound" />
+
+    <Button
+        android:id="@+id/a3Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/e3Learn"
+        android:layout_toRightOf="@+id/titleLearn"
+        android:text="A3"
+        android:onClick="playSound" />
+
+    <Button
+        android:id="@+id/g3Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/c3Learn"
+        android:layout_alignBottom="@+id/c3Learn"
+        android:layout_toRightOf="@+id/titleLearn"
+        android:text="G3"
+        android:onClick="playSound" />
+
+    <Button
+        android:id="@+id/f3Learn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/c4Learn"
+        android:layout_alignBottom="@+id/c4Learn"
+        android:layout_toLeftOf="@+id/titleLearn"
+        android:text="F3"
+        android:onClick="playSound" />
+
+</RelativeLayout>

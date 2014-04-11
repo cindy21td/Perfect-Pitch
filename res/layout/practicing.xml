@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titlePractice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Practice"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/numberPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlePractice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="156dp" >
+
+        <RadioButton
+            android:id="@+id/oneNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="startPractice"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/threeNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startPractice"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/fiveNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startPractice"
+            android:text="5" />
+
+        <RadioButton
+            android:id="@+id/contNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startPractice"
+            android:text="continuous" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/questionOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlePractice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="How Many Notes to Practice?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
